@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+RACK_ENV = ENV["RACK_ENV"] = (ARGV.first || "development") unless defined?(RACK_ENV)
+
+platform_irb = RUBY_PLATFORM =~ /(:?mswin|mingw)/ ? "irb.bat" : "irb"
+app_file = File.join(File.expand_path(File.dirname(__FILE__)), "..", "myapp")
+dependencies = File.join(File.expand_path(File.dirname(__FILE__)), "..", "config", "boot")
+
+libs = []
+libs << dependencies
+libs << app_file
+libs << "irb/completion"
+
+command_line = []
+command_line << platform_irb
+command_line << libs.inject("") { |acc, lib| acc + %( -r "#{lib}") }
+command_line << "--simple-prompt"
+command = command_line.join(" ")
+
+puts "Loading #{RACK_ENV} environment (Sinatra)"
+exec command

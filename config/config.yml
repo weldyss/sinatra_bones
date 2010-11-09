@@ -1,0 +1,8 @@
+development:
+  some_config: 1
+test:
+  some_config: 1
+staging:
+  some_config: 1
+production:
+  some_config: 1

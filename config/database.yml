@@ -1,0 +1,23 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  username: root
+  password:
+  database: myapp_development
+  host: 127.0.0.1
+  encoding:  utf8
+  pool: 5
+  wait_timeout: 10
+  reconnect: true
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  username: root
+  password:
+  database: myapp_test
+  host: 127.0.0.1
+  encoding:  utf8
+  pool: 5
+  wait_timeout: 10
+  reconnect: true
