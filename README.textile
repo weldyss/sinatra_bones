@@ -1,0 +1,31 @@
+h1. sinatra_template
+
+Sinatra is an awesome framework for small, and as some might call, "unstructured" applications. But it is also really good for bigger and traditional web apps. In this realm, I really like the way Rails organizes the app's files. Also, it is a structure very well known by many developers, so using it is a win-win situation.
+
+Does sinatra_template helps your daily work with Ruby? So, "please recommend me":http://workingwithrails.com/recommendation/new/person/9370-lucas-h-ngaro on Working With Rails. Thanks for your kindness! :)
+
+h2. Why?
+
+Sinatra is cool. Templates are cool. Cool + Cool = AWESOME! ;)
+
+h2. How?
+
+To use it, just clone this repo (or fork and clone your own) and start developing your application. You probably want to replace occurrences of MyApp with your app's name.
+
+h2. Note on Patches/Pull Requests
+
+* Fork the project.
+* Make your feature addition or bug fix.
+* Add tests for it. This is important so I don't break it in a
+  future version unintentionally.
+* Commit, do not mess with rakefile, version, or history.
+  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
+* Send me a pull request. Bonus points for topic branches.
+
+h2. Contributors
+
+Be a contributor! :)
+
+h3. Copyright
+
+Copyright (c) 2010 Lucas Húngaro. See LICENSE for details.
