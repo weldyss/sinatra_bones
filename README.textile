@@ -2,6 +2,18 @@ h1. sinatra_template
 
 Sinatra is an awesome framework for small, and as some might call, "unstructured" applications. But it is also really good for bigger and traditional web apps. In this realm, I really like the way Rails organizes the app's files. Also, it is a structure very well known by many developers, so using it is a win-win situation.
 
+This template includes:
+
+- ActiveRecord ORM (with rake tasks for migrations and other utilities);
+- a console script (like Rails' script/console);
+- initial setup for specs (RSpec, Mocha);
+- skeleton for Capistrano recipes;
+- erubis templating;
+- easy database and app config through yaml files;
+- cachy as a cache proxy
+
+and some other conveniences.
+
 Does sinatra_template helps your daily work with Ruby? So, "please recommend me":http://workingwithrails.com/recommendation/new/person/9370-lucas-h-ngaro on Working With Rails. Thanks for your kindness! :)
 
 h2. Why?
